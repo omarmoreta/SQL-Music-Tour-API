@@ -18,7 +18,6 @@ module.exports = (sequelize, DataTypes) => {
         primaryKey: true,
         autoIncrement: true,
       },
-
       name: { type: DataTypes.STRING, allowNull: false },
       genre: { type: DataTypes.TEXT, allowNull: false },
       available_start_time: { type: DataTypes.DATE, allowNull: false },
